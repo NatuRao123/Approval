@@ -139,7 +139,7 @@ btn2.addEventListener('click', () => {
         btn1.style.display = "none";
         btn2.style.display = "none";
         h3.style.fontSize = "15px";
-        h3.textContent = "Happy valentine's day Cheeku, in advance. I want to tell you that, I am glad that you are in my life, and you are the best understanding girl ever, sometimes crazy but you are my crazy. That head pat is for you up there. :)";
+        h3.textContent = "Happy valentine's day Cheeku, in advance. I want to tell you that, I am glad that you are in my life, and you are the best, sometimes crazy but you are my crazy. That head pat is for you up there. :)";
     }
 
 })
