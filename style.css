@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Love Ya Like A Sister", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background-image: url('image/valentine-background.jpg');
+    background-size: cover;
+}
+
+#background-image {
+    width: 100%;
+    filter: brightness(70%);
+}
+
+#content-container {
+    width: 40%;
+    height: 300px;
+    background-color: rgba(66, 52, 52, 0.8);
+    box-shadow: 0px 0px 25px -6px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+#cat-image {
+    width: 180px;
+    height: 170px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#question {
+    color: rgb(252, 243, 243);
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#button-container {
+    display: flex;
+    justify-content:space-around;
+}
+
+.btn {
+    color: rgb(255, 40, 76);
+    background-color: rgb(252, 243, 243);
+    margin: 20px 0;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    transition:ease-in-out .2s;
+}
+
+.btn:hover {
+    transition:ease-in-out .2s;
+    background-color: rgb(255, 212, 219);
+    cursor: pointer;
+}
+
+.btn:active {
+    transition:ease-in-out .1s;
+    background-color: rgb(255, 184, 196);
+}
+
+
+#btn1 {
+    display: none;
+}
+
+#btn2 {
+    display: none;
+}
+
+@media screen and (max-width: 1580px) {
+    body {
+        background-image: url('image/valentine-background.jpg');
+        background-size: cover;
+    }
+    #content-container {
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1080px) {
+    body {
+        background-image: url('image/valentine-background-tablet.jpg');
+    }
+    #content-container {
+        width: 60%;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    body {
+        background-image: url('image/valentine-background-mobile.jpg');
+    }
+    #content-container {
+        width: 80%;
+        height: 350px;
+    }
+}
+
